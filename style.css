@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to right, #89f7fe, #66a6ff);
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: white;
+  padding: 25px;
+  border-radius: 20px;
+  width: 350px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+button {
+  background: #66a6ff;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #5592ff;
+}
+
+.summary {
+  margin: 15px 0;
+  padding: 10px;
+  border-top: 2px solid #eee;
+}
+
+.progress {
+  background: #eee;
+  border-radius: 20px;
+  overflow: hidden;
+  height: 15px;
+  margin-top: 5px;
+}
+
+#progressBar {
+  background: #66a6ff;
+  height: 15px;
+  width: 0%;
+}
+
+ul {
+  list-style: none;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+li {
+  background: #f4f4f4;
+  padding: 8px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+}
